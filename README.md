@@ -1,4 +1,4 @@
-# Brain MRI Collections (`data-others/brain`)
+# Brain MRI Collections
 
 Curated external **human brain MRI datasets** for research, benchmarking, and education.
 This repository aggregates links and light metadata to facilitate access from neuroimaging tools (e.g., DSI Studio).
