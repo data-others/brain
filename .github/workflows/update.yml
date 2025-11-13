@@ -79,7 +79,7 @@ jobs:
               link = f"https://github.com/{account}/{repo_name}/releases/tag/{tag}"
           
               # --- output text with Release Link section ---
-              text = f"{body}\n# Release Link\n{link}\n"
+              text = f"{body}\n## Release Link\n{link}\n"
           
               fn = pathlib.Path(f"{tag}.md")
               fn.write_text(text, encoding="utf-8")
