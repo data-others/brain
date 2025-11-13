@@ -1,7 +1,4 @@
-
-
-
-## 📄 License and Citation
+# 📄 License and Citation
 
 
 
@@ -114,5 +111,6 @@ All images are provided in **NIFTI** format and can be downloaded below:
   ▸ Includes `bvecs.txt` and `bvals.txt`  
 
 - 🔗 [Demographic Information (Spreadsheet)](https://brain-development.org/ixi-dataset/)
+
 ## Release Link
 https://github.com/data-others/brain/releases/tag/ixi-hh

@@ -2,13 +2,13 @@
 
 The Cambridge Centre for Ageing and Neuroscience (Cam-CAN) is a large-scale collaborative research project at the University of Cambridge.
 
-# License
+## License
 
 The derived files (SRC, FIB) are shared under the [original CamCAN agreement](https://camcan-archive.mrc-cbu.cam.ac.uk/dataaccess/datarequest-nobutton.php)
 
 Users should follow the original agreement that requires (1) non-comercial usage, (2) open-access publication, and (3) acknowledgement of [CamCAN repository (Taylor et al., 2016, Shafto et al., 2015)](http://www.mrc-cbu.cam.ac.uk/datasets/camcan/).
 
-# Download
+## Download
 
 <img src="https://user-images.githubusercontent.com/275569/150191699-5a419e63-4c03-4e7c-b5c5-d311e50020db.png" width="400">
 
@@ -31,5 +31,6 @@ Download OneDrive data using [OneDrive Linux GUI](https://github.com/bpozdena/On
   Cam-CAN includes a rich demographics and cognitive data. You can request access at the [CamCAN data portal](https://camcan-archive.mrc-cbu.cam.ac.uk/dataaccess/datarequest.php).
 
 - [Sequence parameters](https://camcan-archive.mrc-cbu.cam.ac.uk/dataaccess/pdfs/CAMCAN700_MR_params.pdf)
+
 ## Release Link
 https://github.com/data-others/brain/releases/tag/cam-can

@@ -1,3 +1,4 @@
+# **Multi-Modal MRI Reproducibility Resource**
 This repository hosts the **Multi‑Modal MRI Reproducibility Resource **, a publicly available collection of scan–rescan MRI sessions on 21 healthy volunteers acquired on a 3 T scanner using a standardized one‑hour multi‑parametric protocol. It comprises structural (MPRAGE, FLAIR), diffusion (DTI), functional (resting‑state fMRI), field‑mapping (B0/B1), perfusion (ASL, VASO), quantitative relaxometry (T1, T2), and magnetization transfer imaging, all converted to NIfTI format. This dataset is intended for statisticians and imaging scientists to benchmark and quantify reproducibility across diverse MRI modalities.
 
 ## Overview
@@ -27,5 +28,6 @@ https://www.nitrc.org/projects/multimodal/
 
 ## Acknowledgements
 Funded by NIH Grant **5R24EB029173** as part of the Biomedical Informatics Research Network (BIRN) initiative.
+
 ## Release Link
 https://github.com/data-others/brain/releases/tag/mmrr
