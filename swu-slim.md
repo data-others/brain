@@ -1,5 +1,4 @@
-# Introduction
-
+# **Southwest University Longitudinal Imaging Multimodal (SLIM) Brain Data Repository: A Long-term Test-Retest Sample of Young Healthy Adults in Southwest China**
 <img src="https://github.com/frankyeh/Brain-Data/assets/275569/b6783feb-2849-4d50-ad32-a983dd44065e" width=600/>
 
 The SLIM (Structural, Longitudinal, and Integrated Multimodal) dataset is a valuable resource in neuroimaging, acquired through multimodal magnetic resonance imaging (mMRI). With a three-and-a-half-year longitudinal design, it addresses gaps in test-retest reliability and age-span limitations. Featuring diverse mMRI scans and behavioral assessments, SLIM provides a comprehensive view of the human brain. This dataset, acquired meticulously, is available for researchers globally, fostering collaboration and contributing to reproducible human brain sciences in partnership with CoRR. Explore the SLIM dataset for insights into the complexities of the human brain.

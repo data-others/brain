@@ -1,5 +1,4 @@
-# Introduction
-
+# **The Cambridge Centre for Ageing and Neuroscience (Cam-CAN)**
 The Cambridge Centre for Ageing and Neuroscience (Cam-CAN) is a large-scale collaborative research project at the University of Cambridge.
 
 ## License
