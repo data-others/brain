@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.12'
 
       - name: Install python dependencies
         run: pip install requests
@@ -27,29 +27,53 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           python << 'PY'
-          import os, requests, pathlib
-
+          import os, pathlib, requests
+          from requests.adapters import HTTPAdapter
+          from urllib3.util.retry import Retry
+          from requests.exceptions import ChunkedEncodingError
+          
           repo = os.environ["GITHUB_REPOSITORY"]
           token = os.environ.get("GITHUB_TOKEN", "")
-
-          headers = {"Accept": "application/vnd.github+json"}
+          
+          session = requests.Session()
+          retries = Retry(
+              total=5,
+              backoff_factor=1,
+              status_forcelist=[500, 502, 503, 504],
+              raise_on_status=False,
+          )
+          session.mount("https://", HTTPAdapter(max_retries=retries))
+          
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "Connection": "close",  # avoid keeping broken connections alive
+          }
           if token:
               headers["Authorization"] = f"Bearer {token}"
-
+          
+          def safe_get(url):
+              for attempt in range(5):
+                  try:
+                      resp = session.get(url, headers=headers, timeout=30)
+                      resp.raise_for_status()
+                      return resp
+                  except ChunkedEncodingError as e:
+                      if attempt == 4:
+                          raise
+                      print(f"ChunkedEncodingError, retry {attempt+1}/5: {e}")
+          
           releases = []
           url = f"https://api.github.com/repos/{repo}/releases?per_page=100"
           while url:
-              resp = requests.get(url, headers=headers)
-              resp.raise_for_status()
+              resp = safe_get(url)
               releases.extend(resp.json())
               url = resp.links.get("next", {}).get("url")
-
+          
           for rel in releases:
               tag = rel.get("tag_name") or "untagged"
               body = rel.get("body") or ""
               fn = pathlib.Path(f"{tag}.md")
               fn.write_text(body, encoding="utf-8")
-
           PY
 
       - name: Commit and push changes
