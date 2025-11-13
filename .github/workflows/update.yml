@@ -18,6 +18,9 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Install python dependencies
+        run: pip install requests
+
       - name: Generate [tag].md files for all releases
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
