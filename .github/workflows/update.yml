@@ -32,8 +32,10 @@ jobs:
           from urllib3.util.retry import Retry
           from requests.exceptions import ChunkedEncodingError
           
-          repo = os.environ["GITHUB_REPOSITORY"]
+          repo = os.environ["GITHUB_REPOSITORY"]  # e.g. data-others/brain
           token = os.environ.get("GITHUB_TOKEN", "")
+          
+          account, repo_name = repo.split("/")
           
           session = requests.Session()
           retries = Retry(
@@ -46,7 +48,7 @@ jobs:
           
           headers = {
               "Accept": "application/vnd.github+json",
-              "Connection": "close",  # avoid keeping broken connections alive
+              "Connection": "close",
           }
           if token:
               headers["Authorization"] = f"Bearer {token}"
@@ -72,9 +74,18 @@ jobs:
           for rel in releases:
               tag = rel.get("tag_name") or "untagged"
               body = rel.get("body") or ""
+          
+              # --- build release link ---
+              link = f"https://github.com/{account}/{repo_name}/releases/tag/{tag}"
+          
+              # --- output text with Release Link section ---
+              text = f"## Release Link\n{link}\n\n{body}\n"
+          
               fn = pathlib.Path(f"{tag}.md")
-              fn.write_text(body, encoding="utf-8")
+              fn.write_text(text, encoding="utf-8")
+          
           PY
+
 
       - name: Commit and push changes
         env:
