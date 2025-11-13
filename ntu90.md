@@ -20,5 +20,5 @@ The NTU Lab grants a non‑commercial, educational, and research license for use
 ## References  
 - Yeh, F.-C., & Tseng, W.-Y.I. *NTU-90: a high angular resolution brain atlas constructed by q-space diffeomorphic reconstruction*. NeuroImage 58(1), 91–99 (2011).  
 - Yeh, F.-C., Wedeen, V.J., & Tseng, W.-Y.I. *Generalized q-sampling imaging*. IEEE Trans. Med. Imaging 29(9), 1626–1635 (2010).  
-# Release Link
+## Release Link
 https://github.com/data-others/brain/releases/tag/ntu90

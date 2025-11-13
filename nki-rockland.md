@@ -37,5 +37,5 @@ The NKI-Rockland phenotypic battery primarily focuses on dimensional mental heal
 - FLU2: FOLLOWUP2 (final follow-up) 
 
 - TRT: RETEST BAS1 (usually acquired within 3 weeks of a baseline or a follow-up)
-# Release Link
+## Release Link
 https://github.com/data-others/brain/releases/tag/nki-rockland

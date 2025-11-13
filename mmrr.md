@@ -27,5 +27,5 @@ https://www.nitrc.org/projects/multimodal/
 
 ## Acknowledgements
 Funded by NIH Grant **5R24EB029173** as part of the Biomedical Informatics Research Network (BIRN) initiative.
-# Release Link
+## Release Link
 https://github.com/data-others/brain/releases/tag/mmrr
