@@ -1,3 +1,6 @@
+## Release Link
+https://github.com/data-others/brain/releases/tag/swu-slim
+
 
 # Introduction
 
@@ -23,4 +26,4 @@ Official website: [link](https://fcon_1000.projects.nitrc.org/indi/retro/southwe
 | Text file | demographics | [OneDrive](https://pitt-my.sharepoint.com/:f:/g/personal/yehfc_pitt_edu/ElrX6-IfV8ZEnBPD__vUM6sBpRECHjyZ7fBRhAs9q3o3yQ?e=QFAhyl) | |
 
 # Methods
->  A DTI diffusion scheme was used, and a total of 90 diffusion sampling directions were acquired. The b-value was 1000 s/mm². The in-plane resolution was 2 mm. The slice thickness was 2 mm. FSL eddy was used to correct for eddy current distortion. The correction was conducted through the integrated interface in DSI Studio ("Chen" release)(http://dsi-studio.labsolver.org). The diffusion MRI data were rotated to align with the AC-PC line at an isotropic resolution of 2.000000. The restricted diffusion was quantified using restricted diffusion imaging (Yeh et al., MRM, 77:603–612 (2017)). The diffusion data were reconstructed using generalized q-sampling imaging (Yeh et al., IEEE TMI, ;29(9):1626-35, 2010) with a diffusion sampling length ratio of 1.25. The tensor metrics were calculated using DWI with b-value lower than 1750 s/mm². 
+>  A DTI diffusion scheme was used, and a total of 90 diffusion sampling directions were acquired. The b-value was 1000 s/mm². The in-plane resolution was 2 mm. The slice thickness was 2 mm. FSL eddy was used to correct for eddy current distortion. The correction was conducted through the integrated interface in DSI Studio ("Chen" release)(http://dsi-studio.labsolver.org). The diffusion MRI data were rotated to align with the AC-PC line at an isotropic resolution of 2.000000. The restricted diffusion was quantified using restricted diffusion imaging (Yeh et al., MRM, 77:603–612 (2017)). The diffusion data were reconstructed using generalized q-sampling imaging (Yeh et al., IEEE TMI, ;29(9):1626-35, 2010) with a diffusion sampling length ratio of 1.25. The tensor metrics were calculated using DWI with b-value lower than 1750 s/mm². 

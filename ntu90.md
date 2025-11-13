@@ -1,3 +1,6 @@
+## Release Link
+https://github.com/data-others/brain/releases/tag/ntu90
+
 This repository hosts the **NTU‑90 diffusion MRI dataset**, comprising 90 subjects scanned on a Siemens 3 T Trio using a diffusion spectrum imaging (DSI) protocol (203 directions, b‑max=6000 s/mm²) with 3 mm isotropic resolution and a one‑subject 2 mm DSI scan (b‑max=4000 s/mm²). Data have been converted to NIfTI for broad compatibility.
 
 ## License  

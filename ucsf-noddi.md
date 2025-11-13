@@ -1,3 +1,6 @@
+## Release Link
+https://github.com/data-others/brain/releases/tag/ucsf-noddi
+
 
 Diffusion MRI from **67 healthy controls (ages 7–63 years)** to study white-matter maturation with **NODDI** (neurite orientation dispersion and density imaging), alongside standard **DTI** metrics. The release includes multi-shell HARDI (two shells), single-shell DTI, and T1-weighted anatomical images suitable for ROI- and voxel-wise analyses of **neurite density (ND)**, **orientation dispersion (OD)**, and conventional diffusion indices. Subsets include **test-retest** sessions for reliability assessment. Findings reported in the companion article show ND rising with a logarithmic pattern across childhood to adulthood, OD increasing exponentially later in life, and NODDI measures predicting age more specifically than DTI.
 

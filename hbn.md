@@ -1,3 +1,6 @@
+## Release Link
+https://github.com/data-others/brain/releases/tag/hbn
+
 ![image](https://github.com/frankyeh/Brain-Data/assets/275569/06d71820-389b-4618-a48d-58b9e7e44bf4)
 
 The Healthy Brain Network (HBN) is an ongoing initiative focused on building a biobank of data from 10,000 children and adolescents (ages 5-21) in the New York City area. This initiative adopts a community-referred recruitment model, where study advertisements target families concerned about one or more psychiatric symptoms in their child. The Healthy Brain Network Biobank contains a rich array of data, including psychiatric, behavioral, cognitive, and lifestyle (e.g., fitness, diet) information, as well as multimodal brain imaging, electroencephalography, digital voice and video recordings, genetics, and actigraphy. Beyond its primary aim of advancing transdiagnostic research, the Healthy Brain Network Biobank also holds promise for furthering biophysical modeling, voice and speech analysis, natural viewing fMRI and EEG, and methods optimization.
