@@ -51,10 +51,7 @@ curl -s https://api.github.com/repos/data-others/brain/releases/tags/ucsf-noddi 
 **Windows PowerShell**
 
 ```powershell
-(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/ucsf-noddi").assets |
-  ForEach-Object {
-    Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf)
-  }
+(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/ucsf-noddi").assets | ForEach-Object { Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf) }
 ```
 
 ---
@@ -83,10 +80,7 @@ curl -s https://api.github.com/repos/data-others/brain/releases/tags/mit-casl | 
 **Windows PowerShell**
 
 ```powershell
-(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/mit-casl").assets |
-  ForEach-Object {
-    Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf)
-  }
+(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/mit-casl").assets | ForEach-Object { Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf) }
 ```
 
 ---
@@ -113,10 +107,7 @@ curl -s https://api.github.com/repos/data-others/brain/releases/tags/swu-slim | 
 **Windows PowerShell**
 
 ```powershell
-(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/swu-slim").assets |
-  ForEach-Object {
-    Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf)
-  }
+(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/swu-slim").assets | ForEach-Object { Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf) }
 ```
 
 ---
@@ -142,10 +133,7 @@ curl -s https://api.github.com/repos/data-others/brain/releases/tags/stark-aging
 **Windows PowerShell**
 
 ```powershell
-(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/stark-aging").assets |
-  ForEach-Object {
-    Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf)
-  }
+(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/stark-aging").assets | ForEach-Object { Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf) }
 ```
 
 ---
@@ -173,10 +161,7 @@ curl -s https://api.github.com/repos/data-others/brain/releases/tags/penthera | 
 **Windows PowerShell**
 
 ```powershell
-(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/penthera").assets |
-  ForEach-Object {
-    Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf)
-  }
+(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/penthera").assets | ForEach-Object { Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf) }
 ```
 
 ---
@@ -205,10 +190,7 @@ curl -s https://api.github.com/repos/data-others/brain/releases/tags/ntu90 | jq 
 **Windows PowerShell**
 
 ```powershell
-(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/ntu90").assets |
-  ForEach-Object {
-    Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf)
-  }
+(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/ntu90").assets | ForEach-Object { Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf) }
 ```
 
 ---
@@ -235,10 +217,7 @@ curl -s https://api.github.com/repos/data-others/brain/releases/tags/nki-rocklan
 **Windows PowerShell**
 
 ```powershell
-(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/nki-rockland").assets |
-  ForEach-Object {
-    Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf)
-  }
+(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/nki-rockland").assets | ForEach-Object { Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf) }
 ```
 
 ---
@@ -266,10 +245,7 @@ curl -s https://api.github.com/repos/data-others/brain/releases/tags/mmrr | jq -
 **Windows PowerShell**
 
 ```powershell
-(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/mmrr").assets |
-  ForEach-Object {
-    Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf)
-  }
+(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/mmrr").assets | ForEach-Object { Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf) }
 ```
 
 ---
@@ -295,10 +271,7 @@ curl -s https://api.github.com/repos/data-others/brain/releases/tags/ixi-iop | j
 **Windows PowerShell**
 
 ```powershell
-(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/ixi-iop").assets |
-  ForEach-Object {
-    Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf)
-  }
+(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/ixi-iop").assets | ForEach-Object { Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf) }
 ```
 
 ---
@@ -324,10 +297,7 @@ curl -s https://api.github.com/repos/data-others/brain/releases/tags/ixi-hh | jq
 **Windows PowerShell**
 
 ```powershell
-(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/ixi-hh").assets |
-  ForEach-Object {
-    Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf)
-  }
+(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/ixi-hh").assets | ForEach-Object { Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf) }
 ```
 
 ---
@@ -353,10 +323,7 @@ curl -s https://api.github.com/repos/data-others/brain/releases/tags/ixi-guys | 
 **Windows PowerShell**
 
 ```powershell
-(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/ixi-guys").assets |
-  ForEach-Object {
-    Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf)
-  }
+(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/ixi-guys").assets | ForEach-Object { Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf) }
 ```
 
 ---
@@ -383,10 +350,7 @@ curl -s https://api.github.com/repos/data-others/brain/releases/tags/hbn | jq -r
 **Windows PowerShell**
 
 ```powershell
-(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/hbn").assets |
-  ForEach-Object {
-    Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf)
-  }
+(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/hbn").assets | ForEach-Object { Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf) }
 ```
 
 ---
@@ -415,10 +379,7 @@ curl -s https://api.github.com/repos/data-others/brain/releases/tags/cam-can | j
 **Windows PowerShell**
 
 ```powershell
-(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/cam-can").assets |
-  ForEach-Object {
-    Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf)
-  }
+(Invoke-RestMethod "https://api.github.com/repos/data-others/brain/releases/tags/cam-can").assets | ForEach-Object { Invoke-WebRequest $_.browser_download_url -OutFile (Split-Path $_.browser_download_url -Leaf) }
 ```
 
 ---
